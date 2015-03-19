@@ -1,5 +1,9 @@
 # Folder view configuration files
 .DS_Store
+JavaPractice/.classpath
+JavaPractice/.project
+JavaPractice/.settings/org.eclipse.jdt.core.prefs
+
 Desktop.ini
 
 # Thumbnail cache files
