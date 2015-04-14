@@ -1,5 +1,19 @@
 package org.dimigo.basic;
 
+/**
+ * <pre>
+ * org.dimigo.basic
+ *   |_ Operator
+ * 
+ * 1. 개요   : Type Casting Pratice
+ * 2. 작성일  : 2015. 4. 2.
+ * </pre>
+ *
+ * @author  : Ion_kr / 2321 이명현
+ * @version : 1.0
+ * @Git     : http://github.com/wp132321
+ */
+ 
 public class Operator {
 
 	/**

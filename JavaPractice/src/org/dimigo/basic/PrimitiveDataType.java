@@ -1,5 +1,19 @@
 package org.dimigo.basic;
 
+/**
+ * <pre>
+ * org.dimigo.basic
+ *   |_ PrimitiveDataType
+ * 
+ * 1. 개요   : Data Type Practice
+ * 2. 작성일  : 2015. 4. 2.
+ * </pre>
+ *
+ * @author  : Ion_kr / 2321 이명현
+ * @version : 1.0
+ * @Git     : http://github.com/wp132321
+ */
+ 
 public class PrimitiveDataType {
 
 	/**
