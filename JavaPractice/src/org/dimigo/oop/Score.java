@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class Score {
 
 	static int total;
-	static StringBuilder sb = new StringBuilder("<< 점수 출력 >>\n");
+	static StringBuilder sb = new StringBuilder();
 	private static Scanner sc;
 	
 	/**
@@ -27,6 +27,8 @@ public class Score {
 	 */
 	public static void main(String[] args) {
 		sc = new Scanner(System.in);
+		
+		sb.append("<< 점수 출력 >>\n");
 		
 		System.out.println("국어 점수 입력 => ");
 		addScore("국어", sc.nextInt());
@@ -37,8 +39,8 @@ public class Score {
 		System.out.println("영어 점수 입력 => ");
 		addScore("영어", sc.nextInt());
 		
-		sb.append(String.format("%s : %d점 \n", "총점", total));
-		sb.append(String.format("%s : %.1f점 \n", "평균", total/3.0));
+		sb.append(String.format("총점 : %s : %d점 \n", total));
+		sb.append(String.format("평균 : %s : %.1f점 \n", total/3.0));
 		
 		System.out.println(sb);
 	}
