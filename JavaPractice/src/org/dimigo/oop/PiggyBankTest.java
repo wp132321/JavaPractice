@@ -23,7 +23,7 @@ public class PiggyBankTest {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		FamilyMember[] family = {
 				new FamilyMember("아빠"), new FamilyMember("엄마"), new FamilyMember("나"), new FamilyMember("남동생")
 		};
