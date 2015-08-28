@@ -62,19 +62,19 @@ public class SmartPhone {
 	}
 	
 	// SmartPhone 객체를 매개변수로 받아 제조사에 따라 고유기능을 실행한다.
-	public void useSpecialFunction(SmartPhone phone) {
+	public void useSpecialFunction() {
 		
 		// 받은 매개변수가 IPhone클래스일 경우
-		if(phone instanceof IPhone) {
+		if(this instanceof IPhone) {
 			
 			// IPhone의 고유기능인 AirDrop을 사용한다.
-			((IPhone) phone).useAirDrop();
+			((IPhone) this).useAirDrop();
 			
 			// 받은 매개변수가 Galaxy클래스일 경우
-		} else if(phone instanceof Galaxy) {
+		} else if(this instanceof Galaxy) {
 			
 			// Galaxy의 고유기능인 무선충전을 사용한다.
-			((Galaxy) phone).useWirelessCharging();
+			((Galaxy) this).useWirelessCharging();
 		}
 	}
 	

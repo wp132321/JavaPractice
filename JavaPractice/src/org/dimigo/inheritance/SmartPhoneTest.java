@@ -43,7 +43,7 @@ public class SmartPhoneTest {
 			phone.pay();
 			
 			// 스마트폰의 고유 기능을 사용함.
-			phone.useSpecialFunction(phone);
+			phone.useSpecialFunction();
 			
 			// 스마트폰 전원 끔.
 			phone.turnOff();
