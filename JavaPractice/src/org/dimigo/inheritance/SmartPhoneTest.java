@@ -30,22 +30,22 @@ public class SmartPhoneTest {
 				new Galaxy("갤럭시 S6", "삼성", 650000)
 		};
 		
-		// 스마트폰 배열에 담긴 휴대전화를 가져와 메서드를 실행시킨다.
+		// 스마트폰 배열에 담긴 스마트폰 객체를 가져와 메서드를 실행시킨다.
 		for(SmartPhone phone : phones) {
 			
-			// 휴대전화 정보 출력.
+			// 스마트폰 정보 출력.
 			System.out.println(phone.toString());
 			
-			// 휴대전화 전원 켬.
+			// 스마트폰 전원 켬.
 			phone.turnOn();
 			
-			// 휴대전화의 페이를 이용하여 결제.
+			// 스마트폰의 페이를 이용하여 결제.
 			phone.pay();
 			
-			// 휴대전화의 고유 기능을 사용함.
+			// 스마트폰의 고유 기능을 사용함.
 			phone.useSpecialFunction(phone);
 			
-			// 휴대전화 전원 끔.
+			// 스마트폰 전원 끔.
 			phone.turnOff();
 			
 			// 한 줄 띄어주기
