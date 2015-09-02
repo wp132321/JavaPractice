@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.dimigo.inheritance;
+package org.dimigo.abstractclass;
 
 /**
  * <pre>
@@ -57,9 +57,7 @@ public abstract class SmartPhone {
 	}
 	
 	// 기본 결제 메시지 출력(자식 클래스에서 페이명 출력 후 호출)
-	public void pay() {
-		System.out.println("로 결제합니다");
-	}
+	abstract void pay();
 	
 	// SmartPhone 객체를 매개변수로 받아 제조사에 따라 고유기능을 실행한다.
 	public void useSpecialFunction() {
