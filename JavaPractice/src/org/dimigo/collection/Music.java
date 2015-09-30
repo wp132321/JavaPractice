@@ -61,6 +61,6 @@ public class Music {
 	}
 	
 	public String toString() {
-		return String.format("%s [title=%s, singer=%s]", this.getClass().getName(), this.title, this.singer);
+		return String.format("%s [title=%s, singer=%s]", this.getClass().getSimpleName(), this.title, this.singer);
 	}
 }
