@@ -12,7 +12,7 @@ import java.util.Map;
 /**
  * <pre>
  * org.dimigo.collection
- *    |_ MelonChart
+ *    |_ MelonGenreChart
  *
  *   1. 개요 :
  *   2. 작성일 : 2015. 9. 25.
@@ -42,7 +42,6 @@ public class MelonGenreChart {
 				new Music("커피", "유재환, 김예림"),
 				new Music("다 잘될거야", "쿨"))));
 		
-		
 		printMap(musics);
 		
 		System.out.println("-- << 발라드 3위 곡 변경 >> --");
@@ -51,7 +50,6 @@ public class MelonGenreChart {
 		printMap(musics);
 		
 		System.out.println("-- << 발라드 1위 곡 삭제 >> --");
-		System.out.println(musics.get("발라드"));
 		musics.get("발라드").remove(0);
 		
 		printMap(musics);
