@@ -17,14 +17,14 @@ package org.dimigo.thread;
  * @github      : http://github.com/wp132321
  */
 
-public class Race {
+public class Race2 {
 
 	public static void main(String[] args) {
 		
 		System.out.println("Main Thread Start!!");
 		
-		new Thread(new Runner2("홍길동")).start();
-		new Thread(new Runner2("홍길순")).start();
+		new Runner("홍길동").start();
+		new Runner("홍길순").start();
 		
 		System.out.println("Main Thread End!!");
 	}
